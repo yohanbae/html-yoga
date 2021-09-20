@@ -19,6 +19,9 @@ body {
   font-size: 35px;
   color: #745a82;
 }
+.block1 button:focus {
+  outline: none;
+}
 .block1 .thecont {
   padding: 0 20px;
   background: white;
@@ -36,6 +39,12 @@ body {
   width: 100%;
   margin: 0;
   text-align: right;
+  margin-bottom: 40px;
+}
+@media (min-width: 992px) {
+  .block1 .thecont ul {
+    margin-bottom: 0px;
+  }
 }
 .block1 .thecont ul li {
   display: inline-block;
@@ -60,6 +69,7 @@ body {
   height: 450px;
   background: url("./images/block1-main.png");
   background-size: contain;
+  background-repeat: no-repeat;
   text-align: center;
   display: grid;
   align-items: center;
@@ -155,7 +165,7 @@ body {
     padding: 0 200px;
     display: grid;
     grid-template-columns: 230px 230px 230px;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-bottom: 0px;
   }
   .block2 .thegrid .img {
@@ -281,6 +291,12 @@ body {
   position: absolute;
   bottom: 0;
   right: 100px;
+  opacity: 0;
+}
+@media (min-width: 992px) {
+  .block4 .thewrap .image .deco-text {
+    opacity: 1;
+  }
 }
 @media (min-width: 992px) {
   .block4 .thewrap {
@@ -364,6 +380,12 @@ body {
   position: absolute;
   bottom: 0;
   left: 100px;
+  opacity: 0;
+}
+@media (min-width: 992px) {
+  .block5 .thewrap .image .deco-text {
+    opacity: 1;
+  }
 }
 @media (min-width: 992px) {
   .block5 .thewrap {
@@ -515,21 +537,39 @@ body {
   width: 250px;
   height: 250px;
 }
+.block8 .right .right-text {
+  position: absolute;
+  bottom: -80px;
+  right: 20px;
+  text-align: center;
+  opacity: 0;
+}
 @media (min-width: 992px) {
   .block8 .right {
     text-align: left;
     margin-bottom: 0px;
+    opacity: 1;
   }
   .block8 .right img {
     width: 505px;
     height: 505px;
   }
 }
-.block8 .right .right-text {
-  position: absolute;
-  bottom: 0;
-  right: 100px;
-  text-align: center;
+@media (min-width: 1200px) {
+  .block8 .right .right-text {
+    position: absolute;
+    bottom: -80px;
+    right: 20px;
+    text-align: center;
+  }
+}
+@media (min-width: 1400px) {
+  .block8 .right .right-text {
+    position: absolute;
+    bottom: -80px;
+    right: 80px;
+    text-align: center;
+  }
 }
 
 .block9 {
@@ -541,8 +581,13 @@ body {
   font-family: "Nunito", sans-serif;
   font-weight: 200;
   padding: 0 20px;
-  padding-top: 50px;
+  padding-top: 60px;
   text-align: center;
+}
+@media (min-width: 768px) {
+  .block9 {
+    padding-top: 70px;
+  }
 }
 @media (min-width: 992px) {
   .block9 {

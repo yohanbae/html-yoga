@@ -1,0 +1,184 @@
+모든 폰트가 동일!
+block8,9 제외하고는, 다 100vh로 잡자
+
+[block1]
+최상단 보라빛 띠: 15px; bg: #745a82
+
+navigation: h:120px; color:#745a82;
+좌우패딩: 50px
+메뉴라인은. vertical middle아니다: 하단에서 25px; 올라와있음.
+icon-size: w:250px; h:80px;
+nav text: Nunito; Bold; 25px; #745a82;
+Home Class Promo Online Class Contact
+
+전체 bg: image고. 중심에 아이콘이 하나있다.
+메인아이콘: 702px; 702px;
+In the icon:
+text1:
+font-size: 42px;
+line-height: 103px;
+color: #745a82;
+font-weight: 300;
+font-family: "Open Sans";
+text-align: center;
+mb:30px
+
+text2: 
+font-size: 42px;
+color: #745a82;
+font-weight: bold;
+text-align: center;
+mb:30px
+
+text3:
+font-size: 25px;
+color: #745a82;
+text-align: center;
+mb:30px
+
+icon: w70 h60
+
+[block2]
+좌우 패딩: 160px;
+상하 패딩: 70px 35px
+
+상단데코:
+width: 1802px;
+height: 1802px;
+border-radius: 901px;
+filter: drop-shadow(-0.174px -4.997px 8px rgba(2,4,0,0.13));
+background-color: #ebf2f2;
+
+title1:
+font-size: 42px;
+letter-spacing: 4px;
+color: #745a82;
+font-weight: 300;
+font-family: "Open Sans";
+text-align: center;
+
+title2:
+bold
+mb:90px;
+
+thegrid: 1fr 1fr 1fr;
+circle: 230px; 230px; no margin
+좌편: 쩜쩜쩜icon: #color: #745a82;
+
+text1: bold, 33px; 
+text2: 25px, light;
+text3: 28px; 
+텍스트 사이 마진은: 10px;
+
+button: width:330px;
+bold, 23px; color:white;
+
+
+
+[block3]
+전체를 그림으로 떼우자. 100vh 되면 될거같고.
+
+좌편 큰 동그라미:
+패딩: 좌:60px; 상:50px;
+큰 동그라미: mb:45px;
+circle1:
+width: 418px;
+height: 418px;
+border-radius: 209px;
+background-color: #ffffff;
+border: 0.18px solid #745a82;
+
+circle2:
+width: 342px;
+height: 342px;
+border-radius: 171px;
+background-color: #ffffff;
+border: 0.52px solid #745a82;
+
+circle3:
+width: 284px;
+height: 284px;
+border-radius: 142px;
+filter: drop-shadow(-0.174px -4.997px 13.5px rgba(2,4,0,0.25));
+background-color: #ffffff;
+
+
+text1 in circle: 75px; purple
+text2 in circle: 38px; purple
+
+text1: Summer Class : 50px; bold, regular; mb:35px;
+text2: date: 25px;
+
+
+[block4] & Block5 :: 좌우만 바뀐체 공유함:
+deco컬러: #ebf2f2;
+상하패딩:150px 70px
+grid:1fr 1fr;
+
+text-wrap:
+padding-left: 120px;
+text1: 33px bold
+text2: 33px reg
+text3: 33px
+text4: 25px, mb:30px
+divider: mb30px
+text5: 25px, mb:40px
+text6: 25px : 이거. 흠. grid 해줘야될거같기도 하다.
+
+right-side:
+circle: 505px 505px;
+vertical font: 25px;
+
+
+
+
+[Block6]
+HEALTY LIFE // 음..이거는. 알아서 만들어보자.
+title: 33px(위에는. semi-bold) / mb:80px;
+
+grid:
+좌우패딩: 120px
+grid안에서의 vertical 간격: 30px
+text-align:center;
+
+image-size: 145px 145px;
+text1: 25px; bold
+text2: 25px; reg
+
+
+[block7] 2번 공유함. 뒤에 데코만 빼고.
+
+[block8]
+grid:1fr 1fr;
+좌우패딩: 120px;
+
+left:
+text1: 50px; mb30px;
+text2: 25px; mb30px;
+text3: 25px; reg;
+
+right:
+circle: 505px 505px;
+mb0 없는걸로.
+
+[block9] Footer
+height: 745px;
+좌우패딩: 160px;
+
+mb: 140px
+처음 image: 60px 60px; mb50px;
+text1: 25px; bold, center, 
+
+grid:
+580px 1fr 1fr 1fr;
+
+item1:
+text1: 25px bold
+text2: 21px
+
+item2:
+text1: 21px bold
+text2: 17px;
+
+맨 막줄 라인:
+최상단 보라빛 띠: 15px; bg: #745a82
